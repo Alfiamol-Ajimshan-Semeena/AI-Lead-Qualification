@@ -13,32 +13,32 @@ Automatically determine lead quality, business needs, and recommended sales acti
         +------------+
               |
               v
-   +--------------------+
-   | Python Script      |
-   | Reads CSV & Sends  |
-   | Each Lead to AI    |
-   +--------------------+
+        +--------------------+
+        | Python Script      |
+        | Reads CSV & Sends  |
+        | Each Lead to AI    |
+        +--------------------+
               |
               v
-   +--------------------+
-   | AI Analysis        |
-   | (Industry, Lead    |
-   | Score, Business    |
-   | Need, Action)      |
-   +--------------------+
+        +--------------------+
+        | AI Analysis        |
+        | (Industry, Lead    |
+        | Score, Business    |
+        | Need, Action)      |
+         +--------------------+
               |
               v
-   +--------------------+
-   | Lead Scoring &     |
-   | Priority (High /   |
-   | Medium / Low)      |
-   +--------------------+
+        +--------------------+
+        | Lead Scoring &     |
+        | Priority (High /   |
+        | Medium / Low)      |
+         +--------------------+
               |
               v
-   +--------------------+
-   | Output CSV         |
-   | (output.csv)       |
-   +--------------------+
+         +--------------------+
+         | Output CSV         |
+         | (output.csv)       |
+        +--------------------+
 
 
 ## Features
